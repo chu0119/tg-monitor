@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+tg_monitor.db
+
+# Session files (contains authentication credentials)
+sessions/*.session
+*.session
+*.session-journal
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Exports
+uploads/
+exports/
+
+# Node modules (for frontend)
+node_modules/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# 环境配置（含数据库密码、API密钥等）
+*.env
+.env
+!.env.example
+
+# Telegram session文件（含登录凭证）
+backend/sessions/
+sessions/
+*.session
+*.session-journal
+
+# 日志
+logs/
+*.log
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 上传和导出
+backend/uploads/
+backend/exports/
+
+# Mihomo代理配置（含代理密码）
+mihomo/
+
+# 系统文件
+.auto-restart.log
+.last_restart
+.alert_sent_flag
+health-monitor.pid
