@@ -1,0 +1,47 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Node
+node_modules/
+frontend/dist/
+
+# 环境配置（通过 env_file 或 volume 挂载）
+*.env
+!.env.example
+
+# Telegram sessions（通过 volume 挂载）
+backend/sessions/
+sessions/
+*.session
+
+# 日志和运行时数据
+logs/
+*.log
+backend/logs/
+backend/uploads/
+backend/exports/
+backend/backups/
+
+# Docker
+docker-compose.yml
+.dockerignore
+
+# Mihomo 代理配置
+mihomo/
+
+# 系统文件
+*.pid
+*.flag
+.last_restart
+.alert_sent_flag
+
+# 文档（不需要打包进镜像）
+*.md
+LICENSE

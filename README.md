@@ -119,6 +119,25 @@ npm run dev
 
 访问 http://localhost:5173 即可使用。
 
+## 🐳 Docker 部署（推荐）
+
+最简单的部署方式，一条命令启动全部服务（前端+后端+MySQL）。
+
+```bash
+# 1. 配置环境变量
+cp backend/.env.example backend/.env
+vim backend/.env  # 填入你的配置
+
+# 2. 一键启动
+docker compose up -d
+
+# 3. 访问 http://your-server-ip
+```
+
+详细说明见 [docker/README.md](docker/README.md)
+
+---
+
 ## 🚀 生产部署（Systemd）
 
 项目内置了 systemd 服务配置，支持开机自启和自动恢复。
